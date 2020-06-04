@@ -1,0 +1,392 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+/* -------------------- header section -------------------------- */
+
+header{
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 3px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+    height: 50px;
+    align-items: center;
+}
+.menu-container{
+    display: inherit;
+    margin: 0;
+    width: 24%;
+}
+
+.menu-container-img{
+    background-image: url('https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png');
+    width: 103px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* -------------------------------header input -------------------------- */
+.menu-input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 25px;
+    border: solid 1px rgba(var(--b6a,219,219,219),1);
+    background: rgb(250,250,250);
+    border-radius: 3px;
+    margin-right: 14%;
+}
+.menu-input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: rgb(250,250,250);
+}
+.menu-input-div{
+    display: inherit;
+    position: absolute;
+    align-items: center;
+    
+}
+.menu-input-container-icon{
+    background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png');
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.menu-input-container-search{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 14px;
+}
+
+
+
+
+.menu ul{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 12px;
+    padding: 0;
+    margin-left: -4%;
+}
+.menu ul li {
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul li a {
+    display: inherit;
+}
+header nav .home-img{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/instagram-ui-1/24/Instagram-UI_home-512.png');
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+}
+header nav .chat-img{
+    background-image: url('https://static.thenounproject.com/png/3084968-200.png');
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+}
+header nav .newpeople-img{
+    background-image: url('https://www.lamar.edu/career-and-testing-services/_files/images/icons/iconfinder_90_compass_183404.png');
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+}
+header nav .saved-img{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/instagram-ui-1/24/Instagram-UI_like-512.png');
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+}
+.menu-profile-img{
+    border: 1px solid #262626;
+    border-radius: 15px;
+    width: 27px;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+}
+header nav .profile-img{
+    background-image: url('https://instagram.fdub3-1.fna.fbcdn.net/v/t51.2885-19/s150x150/83183004_770957350092978_1027563546814185472_n.jpg?_nc_ht=instagram.fdub3-1.fna.fbcdn.net&_nc_ohc=op-LuJoPAYcAX8S4JyP&oh=dd3c3c9ab67ff2e48cc0f18215e213bc&oe=5F008D7B');
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+/* ---------------------------------- MAIN  SECTION HERO --------------------------- */
+main{
+    background-color: rgb(250,250,250);
+}
+.hero{
+    display: grid;
+    grid-template-columns: 34% 1fr 1fr;
+    padding: 30px 0 ;
+}
+.hero-profile-picture{
+    display: inherit;
+    justify-items: end;
+    
+    
+}
+.hero-profile-picture-img{
+    background-image: url('https://instagram.fdub3-1.fna.fbcdn.net/v/t51.2885-19/s150x150/83183004_770957350092978_1027563546814185472_n.jpg?_nc_ht=instagram.fdub3-1.fna.fbcdn.net&_nc_ohc=op-LuJoPAYcAX8S4JyP&oh=dd3c3c9ab67ff2e48cc0f18215e213bc&oe=5F008D7B');
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+.hero-profile-details{
+    display: inherit;
+    grid-template-columns: 94px 85px 100px 70px;
+    align-items: center;
+    padding-left: 22%;
+    align-content: baseline;
+    grid-template-rows: repeat(3,44px);
+
+}
+.hero-profile-details strong{
+    font-weight: 600;
+}
+.hero-profile-username{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 28px;
+    margin: 0;
+    font-weight: 300;
+
+}
+.hero-profile-input{
+    width: 90px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 600;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+.hero-setting-icon{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/instagram-ui-1/24/Instagram-UI_setting-512.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.hero-folowers{
+    grid-column:  2 / 4;
+}
+.hero-folowing{
+    margin-left: -52px;
+}
+.hero-profile-mininame{
+    grid-column: 1 / 3;
+}
+
+.main-line{
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 15px;
+}
+.main-line-border{
+    background: rgba(var(--b38,219,219,219),1);
+    width: 60px;
+    height: 1px;
+}
+ .selected{
+    background: #262626;
+}
+
+/* ------------------ MAIN ICON ------------------------- */
+.main-icon{
+    width: 40%;
+    margin: 0 auto;
+}
+.main-icon ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.main-icon ul li{
+    padding:  0 30px;
+    list-style: none;
+
+}
+.main-icon ul li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.main-icon-img1{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/instagram-ui-1/24/Instagram-UI_photo_grid-512.png');
+    background-size: contain;
+    width: 12px;
+    height: 12px;
+}
+.main-icon-img2{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/social-media-2222/64/IGTV-512.png');
+    background-size: contain;
+    width: 12px;
+    height: 12px;
+}
+.main-icon-img3{
+    background-image: url('https://cdn1.iconfinder.com/data/icons/instagram-feature-outline/32/icon_instagram-27-512.png');
+    background-size: contain;
+    width: 12px;
+    height: 12px;
+}
+.main-icon-img4{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/instagram-ui-1/24/Instagram-UI_tagged-512.png');
+    background-size: contain;
+    width: 12px;
+    height: 12px;
+}
+.main-icon-ref{
+    /* color: rgba(var(--i1d,38,38,38),1); */
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 6px;
+    letter-spacing: 1px;
+}
+.main-icon-refcolor{
+    color: rgba(var(--i1d,38,38,38),1);   
+}
+/* ----------------------------- SECTION MAIN POST LIST ----------------------- */
+
+.main-post{
+   display: grid;
+   grid-template-columns: repeat(3,minmax(100px,293px));
+   justify-content: center;
+   grid-gap: 28px;
+
+    /* ------ cambios --------- */
+    grid-template-rows: repeat(3, minmax(100px,293px));
+
+}
+.main-post-list{
+    display: block;
+    position: relative;
+
+
+    height: 100%;
+}
+.main-post-list-container{
+    margin: 0;
+    
+    height: inherit;
+}
+.main-post-list-container-image{
+    width: 100%;
+    height: 100%;
+    display: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-post-list-container-image1{
+    background-image: url('https://instagram.fdub3-1.fna.fbcdn.net/v/t51.2885-15/e35/s320x320/71837997_2591835917528845_3453094607578388728_n.jpg?_nc_ht=instagram.fdub3-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=FoG5zsb7tHUAX-dTv0U&oh=92d848077a42697b0917c7d20d26bef0&oe=5F01985A');
+}
+.main-post-list-container-image2{
+    background-image: url('https://instagram.fdub3-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/69468374_485496682034030_7245258824704383734_n.jpg?_nc_ht=instagram.fdub3-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=AbgtoibePJMAX8HxMRm&oh=6d41e5e325c7cedc4da103fc68b40da1&oe=5F00EE5F');
+}
+.main-post-list-container-image3{
+    background-image: url('https://instagram.fdub3-1.fna.fbcdn.net/v/t51.2885-15/e35/s480x480/52482988_264661037801915_1445528085179194204_n.jpg?_nc_ht=instagram.fdub3-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=qpOBvhDnoD4AX9KSpWu&oh=6a4dcf0d30f821f5583493ab37346c3c&oe=5F02D4B5');
+}
+.main-post-list-container-image4{
+    background-image: url('https://instagram.fdub3-1.fna.fbcdn.net/v/t51.2885-15/e35/s480x480/46795620_795991014098471_73669779542103216_n.jpg?_nc_ht=instagram.fdub3-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=fE-MxOjALaEAX9J-Gsv&oh=5d1f817cda8e57b079d3ce78f0ac845c&oe=5F01C065');
+}
+.main-post-list-container-image5{
+    background-image: url('https://instagram.fdub3-1.fna.fbcdn.net/v/t51.2885-15/e35/s480x480/47584048_2208058766101246_1360780360437940625_n.jpg?_nc_ht=instagram.fdub3-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=z4eDKyiMyhoAX_unrzG&oh=1d35382e79be86008ced42fd0ed9da1d&oe=5F03CF86');
+}
+.main-post-list-container-image6{
+    background-image: url('https://instagram.fdub3-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/45842799_488905394929584_7403102751222170660_n.jpg?_nc_ht=instagram.fdub3-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=k_nqJff4ezAAX86UbVc&oh=73ee36a85fcba895f55e4beaa850330c&oe=5F0308EC');
+}
+.main-post-list-container-image7{
+    background-image: url('https://instagram.fdub3-1.fna.fbcdn.net/v/t51.2885-15/e35/c0.36.720.720a/s320x320/41113467_2158177984504806_8599220614915612004_n.jpg?_nc_ht=instagram.fdub3-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=P-Kc9SiLNNEAX9YY9LA&oh=cc235e5f0cf79057e43d7dafac36ff2b&oe=5F03D402');
+}
+.main-post-list-container-image8{
+    background-image: url('https://instagram.fdub3-1.fna.fbcdn.net/v/t51.2885-15/e35/s240x240/37762140_1958140340873002_1901060758385459200_n.jpg?_nc_ht=instagram.fdub3-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=1Vo9j7BeLm8AX9qk8Jc&oh=18438c569d38ddc39d9937e7abfc0449&oe=5F041E71');
+}
+.main-post-list-container-image9{
+    background-image: url('https://instagram.fdub3-1.fna.fbcdn.net/v/t51.2885-15/e35/s480x480/36477838_214815032525375_3519289064106754048_n.jpg?_nc_ht=instagram.fdub3-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=IfXA7vLntZUAX9oETMo&oh=fac03a3d6fce2030d2552537206cecff&oe=5F028A3F');
+}
+
+.main-post-overlay{
+    background: rgba(0,0,0,.4);
+    position: absolute;
+    top: 0 ;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.main-post-overlay-likes{
+
+}
+.main-post-overlay-comments{
+
+}
+
+.main-post-list:hover .main-post-overlay{
+    display: flex;
+}
+
+/* ---------------------------SECTION FOOTER ------------------------------------ */
+
+footer{
+    display: grid;
+    grid-template-columns: 52% 17%;
+    justify-content: center;
+    align-content: center;
+    height: 104px;
+    background: rgb(250,250,250);
+
+}
+footer ul {
+    display: flex;
+    font-size: 12px;
+    list-style: none;
+}
+footer ul li {
+    padding-right: 16px;
+
+}
+footer ul li a{
+    text-decoration: none;
+    color: #00376b;
+    font-weight: 600;
+
+}
+footer span{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 20px;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px){
+    .main-post{
+        grid-gap: 3px;
+    }
+    .main-post-list-container-image{
+        
+        /* background-size: cover; */
+    }
+
+}
